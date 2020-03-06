@@ -10,11 +10,11 @@ draft: false
 
 - [Hugo下载地址](https://github.com/gohugoio/hugo/releases)
 
-  本教程选择了![1583507935042](C:\Users\1aoMn\AppData\Roaming\Typora\typora-user-images\1583507935042.png)安装，该版本增加了对sass的支持。
+  本教程选择了![1583507935042.png](https://i.loli.net/2020/03/07/zT8oSZCOAib1q4J.png)安装，该版本增加了对sass的支持。
 
   #### 第1步：
 
-  下载解压，完成之后，把hugo.exe添加到全局变量```Path```。![1583508112162](C:\Users\1aoMn\AppData\Roaming\Typora\typora-user-images\1583508112162.png)在控制台中验证安装成功。
+  下载解压，完成之后，把hugo.exe添加到全局变量```Path```。![1583508112162.png](https://i.loli.net/2020/03/07/LPQvA3RNwEGMJhm.png)在控制台中验证安装成功。
 
 - 在Github上新建仓库hugo-on-netlify，并在D:\Blog目录下打开Gitbash，输入指令。
 
@@ -117,11 +117,11 @@ Hugo是没有默认主题的，这里选用主题[Meme]( https://github.com/reui
 
 首先修改```Build settings```，因为需要Netlify通过hugo构建，故做如下修改
 
-![1583510667070](C:\Users\1aoMn\AppData\Roaming\Typora\typora-user-images\1583510667070.png)
+![1583510667070.png](https://i.loli.net/2020/03/07/Cms9vcMBQaoZxfO.png)
 
 然后修改
 
-![1583510849748](C:\Users\1aoMn\AppData\Roaming\Typora\typora-user-images\1583510849748.png)
+![1583510849748.png](https://i.loli.net/2020/03/07/nEK6tA4o2NzQyGq.png)
 
 这里的修改是因为Netlify默认使用的Hugo版本过低，需要手动设置，否则不支持Meme主题。
 
@@ -133,9 +133,9 @@ Hugo是没有默认主题的，这里选用主题[Meme]( https://github.com/reui
 
 因为之前在腾讯云上搭建过博客，也是在上面注册的.com域名，所以这里以腾讯云的DNS解析操作为例。
 
-操作很简单，首先在Domian management中添加域名![1583511456178](C:\Users\1aoMn\AppData\Roaming\Typora\typora-user-images\1583511456178.png)然后在腾讯云域名的解析记录里添加一条A记录，记录值为104.198.14.52。
+操作很简单，首先在Domian management中添加域名![1583511456178.png](https://i.loli.net/2020/03/07/QN67BfgvWCZuHFE.png)然后在腾讯云域名的解析记录里添加一条A记录，记录值为104.198.14.52。
 
-![1583511404983](C:\Users\1aoMn\AppData\Roaming\Typora\typora-user-images\1583511404983.png)
+![1583511397346.png](https://i.loli.net/2020/03/07/CmXeSw5LrDzavVG.png)
 
 等待10分钟后，就可以通过域名访问自己的网站了。
 
