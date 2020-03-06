@@ -1,7 +1,7 @@
 ##########################################
 # 站点配置
 
-baseURL = "http://1aomn.com/"
+baseURL = "https://1aomn.com/"
 title = "秋屿"
 languageCode = "zh-CN"
 hasCJKLanguage = true
@@ -100,7 +100,7 @@ uglyURLs = false
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "http://1aomn.com"
+    website = "https://1aomn.com"
     # 推特
     twitter = "秋屿"
 
@@ -182,14 +182,14 @@ uglyURLs = false
         pre = "internal"
         post = "home"
     [[menu.main]]
-        url = "/posts/"
-        name = "文章"
+        url = "/Skills/"
+        name = "技术"
         weight = 2
         pre = "internal"
         post = "archive"
     [[menu.main]]
-        url = "/categories/"
-        name = "分类"
+        url = "/life/"
+        name = "生活"
         weight = 3
         pre = "internal"
         post = "th"
@@ -237,7 +237,7 @@ uglyURLs = false
     # 说明：居中布局（center）或弹性布局（flex）
 
     # 顶栏宽度的回退值
-    headerFallbackWidth = "36em"
+    headerFallbackWidth = "40em"
     # 说明：默认情况，MemE 使用 main-inner 元素
     #      的宽度作为顶栏宽度，但是在一些页面（比
     #      如「诗意人生」和「视频片段」布局的首页），
@@ -715,7 +715,7 @@ uglyURLs = false
     readingTimeIcon = "clock"
 
     # 是否显示不蒜子页面浏览量
-    displayBusuanziPagePV = false
+    displayBusuanziPagePV = true
     # 不蒜子页面浏览量的图标
     busuanziPagePVIcon = "eye"
     # 说明：仅在生产环境（production）下渲染
@@ -859,7 +859,7 @@ uglyURLs = false
     #      SVG，则可留空（""）品牌栏字体。
 
     # 品牌栏
-    fontFamilySiteBrand = ""
+    fontFamilySiteBrand = "'glyph-correction','Tangerine',cursive"
     # 菜单栏
     fontFamilyMenu = ""
     # 文章标题、文章副标题、列表标题、列表的年份和月份标题、相关文章标题、文章上下篇标题、表格的表头、定义列表中的术语
@@ -1055,11 +1055,11 @@ uglyURLs = false
     displayShareOnText = false
 
     shareOnTwitter = true
-    shareOnFacebook = true
-    shareOnLinkedIn = true
+    shareOnFacebook = false
+    shareOnLinkedIn = false
     shareOnTelegram = true
-    shareOnWeibo = true
-    shareOnDouban = true
+    shareOnWeibo = false
+    shareOnDouban = false
     shareOnQQ = true
     shareOnQzone = true
 
@@ -1172,7 +1172,7 @@ uglyURLs = false
     # 自定义页脚（支持 Markdown）
     customFooter = ""
 
-    displayBusuanziSiteUVAndPV = false
+    displayBusuanziSiteUVAndPV = true
     busuanziSiteUVText = "本站访客数"
     busuanziSiteUVIcon = "user"
     busuanziSitePVText = "本站访问量"

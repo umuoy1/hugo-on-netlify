@@ -12,7 +12,7 @@ draft: false
 
   本教程选择了![1583507935042.png](https://i.loli.net/2020/03/07/zT8oSZCOAib1q4J.png)安装，该版本增加了对sass的支持。
 
-  #### 第1步：
+  #### 第1步：安装Hugo
 
   下载解压，完成之后，把hugo.exe添加到全局变量```Path```。![1583508112162.png](https://i.loli.net/2020/03/07/LPQvA3RNwEGMJhm.png)在控制台中验证安装成功。
 
@@ -36,7 +36,7 @@ draft: false
   > └── config.toml
   > ```
 
-#### 第2步：
+#### 第2步：安装主题Meme
 
 Hugo是没有默认主题的，这里选用主题[Meme]( https://github.com/reuixiy/hugo-theme-meme )。
 
@@ -44,7 +44,7 @@ Hugo是没有默认主题的，这里选用主题[Meme]( https://github.com/reui
 
 然后替换 `config.toml` 为 [config.toml]( https://github.com/reuixiy/hugo-theme-meme/blob/master/config-examples/zh-cn/config.toml) ，可以在其中进行个性化设置。
 
-#### 第3步：
+#### 第3步：测试
 
 创建测试页面
 
@@ -76,7 +76,7 @@ Hugo是没有默认主题的，这里选用主题[Meme]( https://github.com/reui
 
 官网[Netlify](https://www.netlify.com/)可以直接通过Github登录，非常方便。
 
-#### 第1步：
+#### 第1步：配置文件
 
 首先在网站根目录下添加```netlify.toml```文件，如官网所示：
 
@@ -111,7 +111,7 @@ Hugo是没有默认主题的，这里选用主题[Meme]( https://github.com/reui
 > [context.next.environment]
 > HUGO_ENABLEGITINFO = "true"
 
-#### 第2步：
+#### 第2步：Netlify配置
 
 根据官网的指引，连接Github中的blog-on-netlify仓库，然后修改设置。
 
@@ -125,7 +125,7 @@ Hugo是没有默认主题的，这里选用主题[Meme]( https://github.com/reui
 
 这里的修改是因为Netlify默认使用的Hugo版本过低，需要手动设置，否则不支持Meme主题。
 
-#### 第3步：
+#### 第3步：完成
 
 构建完成后，Netlify会自动生成一个链接，指向你的博客，至此Hugo博客的搭建就完成了。
 
