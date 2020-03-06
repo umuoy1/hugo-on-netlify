@@ -127,15 +127,15 @@ Hugo是没有默认主题的，这里选用主题[Meme]( https://github.com/reui
 
 #### 第3步：完成
 
-构建完成后，Netlify会自动生成一个链接，指向你的博客，至此Hugo博客的搭建就完成了。
+构建完成后，Netlify会自动生成一个二级域名，指向你的博客，至此Hugo博客的搭建就完成了。
 
 ## 四、自定义域名
 
 因为之前在腾讯云上搭建过博客，也是在上面注册的.com域名，所以这里以腾讯云的DNS解析操作为例。
 
-操作很简单，首先在Domian management中添加域名![1583511456178.png](https://i.loli.net/2020/03/07/QN67BfgvWCZuHFE.png)然后在腾讯云域名的解析记录里添加一条A记录，记录值为104.198.14.52。
+操作很简单，首先在Domian management中添加域名![1583511456178.png](https://i.loli.net/2020/03/07/QN67BfgvWCZuHFE.png)然后在腾讯云域名的解析记录里添加CNAME记录，记录值为Netlify给你的二级域名。
 
-![1583511397346.png](https://i.loli.net/2020/03/07/CmXeSw5LrDzavVG.png)
+![QQ截图20200307020934.png](https://i.loli.net/2020/03/07/ZdINDepGwi3Q5Ur.png)
 
 等待10分钟后，就可以通过域名访问自己的网站了。
 
