@@ -562,7 +562,7 @@ uglyURLs = false
     # 说明：仅在生产环境（production）下渲染
 
     # 是否开启（全局设置）
-    enableComments = false
+    enableComments = true
     # 说明：文章的 Front Matter 中的 `comments`
     #      的优先级高于此处
 
@@ -1173,9 +1173,9 @@ uglyURLs = false
     customFooter = ""
 
     displayBusuanziSiteUVAndPV = true
-    busuanziSiteUVText = "本站访客数"
+    busuanziSiteUVText = ""
     busuanziSiteUVIcon = "user"
-    busuanziSitePVText = "本站访问量"
+    busuanziSitePVText = ""
     busuanziSitePVIcon = "eye"
     # 说明：仅在生产环境（production）下渲染
     #      文本或图标，留空（""）则无
@@ -1186,13 +1186,13 @@ uglyURLs = false
     # 多语言
 
     # 是否开启多语言按钮
-    enableLangToggle = false
+    enableLangToggle = true
 
     # 是否在首页隐藏多语言按钮
     hideLangToggleInHome = false
 
     # 是否自动隐藏多语言按钮
-    autoHideLangToggle = true
+    autoHideLangToggle = false
     # 说明：即仅当该文章有相应的翻译版本时才显
     #      示按钮
 
