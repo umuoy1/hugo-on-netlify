@@ -23,10 +23,58 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Fri, 06 Mar 2020 22:28:10 +0800</lastBuildDate>
+        <lastBuildDate>Fri, 06 Mar 2020 23:04:11 +0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="http://1aomn.com/rss.xml" />
         
+        
+            <item>
+                <title>搭建Hugo博客，并使用Netlify自动部署</title>
+                <link>http://1aomn.com/posts/build-a-blog/</link>
+                <guid isPermaLink="true">http://1aomn.com/posts/build-a-blog/</guid>
+                <pubDate>Fri, 06 Mar 2020 22:02:46 +0800</pubDate>
+                
+                    <author>burningdian@gmail.com (秋屿)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description><![CDATA[]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
+        
+            <item>
+                <title>First Post</title>
+                <link>http://1aomn.com/posts/first-post/</link>
+                <guid isPermaLink="true">http://1aomn.com/posts/first-post/</guid>
+                <pubDate>Fri, 06 Mar 2020 21:10:07 +0800</pubDate>
+                
+                    <author>burningdian@gmail.com (秋屿)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description><![CDATA[]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
         
     </channel>
 </rss>

@@ -3,15 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://1aomn.com/about/</loc>
+    <lastmod>2020-03-06T23:03:52+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://1aomn.com/</loc>
+    <lastmod>2020-03-06T23:04:06+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://1aomn.com/posts/</loc>
+    <lastmod>2020-03-06T23:04:06+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://1aomn.com/posts/build-a-blog/</loc>
+    <lastmod>2020-03-06T23:04:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://1aomn.com/posts/first-post/</loc>
+    <lastmod>2020-03-06T23:04:06+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://1aomn.com/categories/</loc>
   </url>
   
   <url>
     <loc>http://1aomn.com/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>http://1aomn.com/</loc>
   </url>
   
 </urlset>
