@@ -299,7 +299,7 @@ uglyURLs = false
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = ["#### 后来这一切就成了回忆","我的一部分","##### 写成了诗意"]
+    homePoetry = ["</br>","#### 后来这一切就成了回忆","我的一部分","##### 写成了诗意"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 
