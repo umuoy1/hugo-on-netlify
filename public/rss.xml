@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>秋屿</title>
+        <link>http://1aomn.com/</link>
+        <description>秋屿的个人博客，记载生活点滴与技术灵感。</description>
+        <generator>Hugo 0.66.0 https://gohugo.io/</generator>
+        
+            <language>zh-CN</language>
+        
+        
+            <managingEditor>burningdian@gmail.com (秋屿)</managingEditor>
+        
+        
+            <webMaster>burningdian@gmail.com (秋屿)</webMaster>
+        
+        
+            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+        
+        <lastBuildDate>Fri, 06 Mar 2020 22:28:10 +0800</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss+xml" href="http://1aomn.com/rss.xml" />
+        
+        
+    </channel>
+</rss>
