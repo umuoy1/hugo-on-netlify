@@ -10,7 +10,7 @@ draft: false
 
 - [Hugo下载地址](https://github.com/gohugoio/hugo/releases)
 
-  本教程选择了![1583507935042.png](https://i.loli.net/2020/03/07/zT8oSZCOAib1q4J.png)安装，该版本增加了对sass的支持。
+  本教程选择了![1583507935042.png](https://i.loli.net/2020/03/07/zT8oSZCOAib1q4J.png)安装，该版本增加了对sass的支持 。
 
   #### 第1步：安装Hugo
 
