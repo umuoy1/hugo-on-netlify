@@ -299,7 +299,7 @@ uglyURLs = false
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = ["</br>","#### 后来这一切就成了回忆","我的一部分","##### 写成了诗意","</br>","<iframe frameborder='yes' border='100' marginwidth='4' marginheight='0' width=333 height=86 src='//music.163.com/outchain/player?type=2&id=28219022&auto=1&height=66'></iframe>"]
+    homePoetry = ["</br>","#### 后来这一切就成了回忆","我的一部分","##### 写成了诗意","</br></br>","<iframe frameborder='yes' border='100' marginwidth='4' marginheight='0' width=333 height=86 src='//music.163.com/outchain/player?type=2&id=28219022&auto=1&height=66'></iframe>"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 
