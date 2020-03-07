@@ -571,7 +571,7 @@ uglyURLs = false
     disqusShortname = ""
 
     ## Valine
-    enableValine = true
+    enableValine = false
     valineAppId = "4eUjJFY4Y4wKW4TFpKb7izK5-gzGzoHsz"
     valineAppKey = "hmmEiXiIRfyiLUKhI0ksxCyi"
     valinePlaceholder = "Leave your comment"
@@ -590,8 +590,8 @@ uglyURLs = false
     # 说明：https://valine.js.org/
 
     ## Utterances
-    enableUtterances = false
-    utterancesRepo = ""
+    enableUtterances = true
+    utterancesRepo = "umuoy1/blog-utteranc-comments"
     utterancesIssueTerm = "pathname"
     utterancesTheme = "github-light"
     utterancesThemeDark = "photon-dark"
