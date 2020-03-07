@@ -299,7 +299,7 @@ uglyURLs = false
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = ["</br>","#### 后来这一切就成了回忆","我的一部分","##### 写成了诗意","</br></br>","<iframe frameborder='yes' border='100' marginwidth='4' marginheight='0' width=333 height=86 src='//music.163.com/outchain/player?type=2&id=28219022&auto=1&height=66'></iframe>"]
+    homePoetry = ["</br>","#### 后来这一切就成了回忆","我的一部分","##### 写成了诗意","</br>","<iframe frameborder='yes' border='100' marginwidth='4' marginheight='0' width=333 height=86 src='//music.163.com/outchain/player?type=2&id=28219022&auto=1&height=66'></iframe>"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 
@@ -407,7 +407,7 @@ uglyURLs = false
     # 注意：请遵循格式 https://gohugo.io/functions/format/
 
     # 日期的位置
-    listDatePosition = "right"
+    listDatePosition = "left"
     # 说明：left（左边）或 right（右边）
 
     # 是否按月份分隔列表
@@ -1004,15 +1004,15 @@ uglyURLs = false
     # 文章的 Git 版本信息
 
     # 是否开启
-    enablePostGitInfo = false
+    enablePostGitInfo = true
 
     # 是否显示（全局设置）
-    displayPostGitInfo = false
+    displayPostGitInfo = true
     # 说明：文章的 Front Matter 中的 `gitinfo`
     #      的优先级高于此处
 
     # 仓库地址
-    repoURL = ""
+    repoURL = "https://github.com/umuoy1/hugo-on-netlify"
     # 编辑地址
     repoEditURL = ""
 
