@@ -571,10 +571,10 @@ uglyURLs = false
     disqusShortname = ""
 
     ## Valine
-    enableValine = false
-    valineAppId = ""
-    valineAppKey = ""
-    valinePlaceholder = "Just go go"
+    enableValine = true
+    valineAppId = "4eUjJFY4Y4wKW4TFpKb7izK5-gzGzoHsz"
+    valineAppKey = "hmmEiXiIRfyiLUKhI0ksxCyi"
+    valinePlaceholder = "Leave your comment"
     valineNotify = false
     valineVerify = false
     valinePath = ""
